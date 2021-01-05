@@ -58,7 +58,7 @@ body {
   background-image: url("/images/bg-desktop.svg");
   background-size: cover;
   background-repeat: no-repeat;
-
+  min-height: 100vh;
   color: whitesmoke;
 }
 
@@ -72,11 +72,12 @@ header {
 
 .main-contents {
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
 }
 
 .image-container {
   flex: 0.6;
+  max-width: 860px;
 }
 
 .site-contents {
@@ -97,6 +98,7 @@ header {
 footer {
   display: flex;
   justify-content: end;
+  margin-top: 10rem;
 }
 a:active,
 a {
